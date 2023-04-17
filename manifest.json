@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "homeStart",
+    "version": "1.0.1",
+
+    "action": {
+
+     },
+    
+    "description": "Start your web-browsing session the right way",
+
+    "chrome_url_overrides": {
+        "newtab" : "newtab.html"
+    },
+
+
+
+
+    "icons": { 
+        
+    },
+    "content_scripts": [
+        {
+        "matches": ["*://*.google.com/*"], 
+        "css":["styles.css"], 
+        "js": ["content.js"]
+        }
+    ]
+}
