@@ -23,7 +23,7 @@ Homestart is a Google Chrome extension created using Javascript, HTML and CSS th
 
 ### Preview
 
-![Screenshot of Extension](/homeStart/images/Preview.png)
+![Screenshot of Extension](homeStart/images/Preview.png)
 
 
 ### Video Demo
